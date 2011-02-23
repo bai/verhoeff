@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.version = "1.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["beawesomeinstead"]
+  s.authors = ["beawesomeinstead", "oklasoft"]
   s.date = %q{2011-02-23}
   s.description = %q{Pure-Ruby implementation of the Verhoeff checksum algorithm}
   s.email = %q{beawesomeinstead@yahoo.com}
@@ -18,9 +18,14 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
     "Gemfile",
+    "Gemfile.lock",
+    "README.markdown",
     "Rakefile",
+    "VERSION",
     "lib/verhoeff.rb",
-    "test/helper.rb"
+    "test/helper.rb",
+    "test/verhoeff_test.rb",
+    "verhoeff.gemspec"
   ]
   s.homepage = %q{http://github.com/bai/verhoeff}
   s.licenses = ["MIT"]

@@ -18,7 +18,7 @@ Jeweler::Tasks.new do |gem|
   gem.summary = %Q{Pure-Ruby implementation of the Verhoeff checksum algorithm}
   gem.description = %Q{Pure-Ruby implementation of the Verhoeff checksum algorithm}
   gem.email = "beawesomeinstead@yahoo.com"
-  gem.authors = ["beawesomeinstead"]
+  gem.authors = [ "beawesomeinstead", "oklasoft" ]
 end
 Jeweler::RubygemsDotOrgTasks.new
 
