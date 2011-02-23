@@ -1,6 +1,6 @@
-require 'test_helper'
+require 'helper'
 
-class ChecksumTest < Test::Unit::TestCase
+class VerhoeffTest < Test::Unit::TestCase
   context "The Verhoeff checksum algorithm" do
     should "work with correct, previously calculated checksums" do
       checksum = (1..23).inject(1) { |checksum, i| Verhoeff.checksum_of checksum }
