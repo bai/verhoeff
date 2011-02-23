@@ -1,5 +1,3 @@
-require 'enumerator'
-
 module Verhoeff
   D = [
     [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
@@ -26,11 +24,11 @@ module Verhoeff
   ]
 
   INV = [0, 4, 3, 2, 1, 5, 6, 7, 8, 9]
-  
-  ZERO_ORDINAL = '0'.each_byte.first
+
+  ZERO_ORDINAL = '0'.ord
 
   def self.checksum_digit_of(arg)
-    INV[arg.to_s.each_byte.reverse_each.enum_for(:each_with_index).inject(0) { |check,(x,i)|
+    INV[arg.to_s.each_byte.reverse_each.with_index.inject(0) { |check,(x,i)|
       D[check][P[i.next % 8][x - ZERO_ORDINAL]]
     }]
   end
