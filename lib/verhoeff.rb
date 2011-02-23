@@ -25,7 +25,7 @@ module Verhoeff
 
   INV = [0, 4, 3, 2, 1, 5, 6, 7, 8, 9]
 
-  ZERO_ORDINAL = '0'.ord
+  ZERO_ORDINAL = 48 # '0'.each_byte.first on 1.8 or '0'.ord on 1.9
 
   def self.checksum_digit_of(arg)
     INV[arg.to_s.each_byte.reverse_each.with_index.inject(0) { |check,(x,i)|
