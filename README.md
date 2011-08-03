@@ -12,8 +12,8 @@ The Verhoeff algorithm implemented using three tables: a multiplication table D,
 
 ## Example
 
-    Verhoeff.checkum_of 12345 # => "123451"
-    Verhoeff.checkum_of 54321 # => "543217"
+    Verhoeff.checksum_of 12345 # => "123451"
+    Verhoeff.checksum_of 54321 # => "543217"
     Verhoeff.valid? 543217 # => true
     Verhoeff.valid? 543211 # => false
 
