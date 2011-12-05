@@ -6,7 +6,7 @@ require 'verhoeff/version'
 Gem::Specification.new do |s|
   s.name         = "verhoeff"
   s.version      = Verhoeff::VERSION
-  s.authors      = [ "beawesomeinstead", "oklasoft" ]
+  s.authors      = [ "jicksta", "beawesomeinstead", "oklasoft", "hgavin" ]
   s.email        = "graf.otodrakula@gmail.com"
   s.homepage     = "http://github.com/bai/verhoeff"
   s.summary      = "Pure-Ruby implementation of the Verhoeff checksum algorithm"
