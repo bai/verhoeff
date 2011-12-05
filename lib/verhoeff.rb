@@ -38,6 +38,6 @@ module Verhoeff
   end
 
   def self.valid?(num)
-    checksum_digit_of(num.to_s[0..-2]) == num.to_s.each_byte.reverse_each.next - ZERO_ORDINAL
+    checksum_digit_of(num.to_s[0..-2]) == num % 10
   end
 end
