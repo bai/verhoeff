@@ -16,5 +16,6 @@ Gem::Specification.new do |s|
   s.platform     = Gem::Platform::RUBY
   s.require_path = 'lib'
 
+  s.add_development_dependency 'rake'
   s.add_development_dependency 'shoulda'
 end
