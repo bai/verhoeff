@@ -27,6 +27,13 @@ The Verhoeff algorithm implemented using three tables: a multiplication table D,
 * Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
 * Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
 
+## Contributors
+
+* Jay Phillips
+* beawesomeinstead
+* Stuart Glenn
+* Gavin Heavyside
+
 ## References
 
   * Verhoeff, J. “Error Detecting Decimal Codes”, Mathematical Centre Tract 29, The Mathematical Centre, Amsterdam, 1969.
