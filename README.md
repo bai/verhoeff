@@ -1,4 +1,4 @@
-# Verhoeff ![Build status](https://travis-ci.org/bai/verhoeff.png)
+# Verhoeff [![Build Status](https://secure.travis-ci.org/bai/verhoeff.png)](http://travis-ci.org/bai/verhoeff)
 
 This is pure Ruby (1.9 compatible) implementation of the Verhoeff algorithm.
 
