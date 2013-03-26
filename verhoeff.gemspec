@@ -21,5 +21,4 @@ Gem::Specification.new do |s|
   s.cert_chain    = ["certs/bai.pem"]
 
   s.add_development_dependency 'rake'
-  s.add_development_dependency 'shoulda'
 end
