@@ -17,6 +17,17 @@ The Verhoeff algorithm implemented using three tables: a multiplication table D,
     Verhoeff.valid? 543217 # => true
     Verhoeff.valid? 543211 # => false
 
+## HighSecurity
+
+To ensure that you're including a gem with original code, you can install this gem using a HighSecurity policy.
+
+    gem cert --add <(curl -Ls https://gist.github.com/bai/5150087/raw/public_cert.pem)
+    bundle install --trust-policy HighSecurity
+
+Or, if you don't use bundler:
+
+    gem install verhoeff -P HighSecurity
+
 ## Contributing to verhoeff
 
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
