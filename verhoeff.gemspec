@@ -9,8 +9,9 @@ Gem::Specification.new do |s|
   s.authors      = [ "jicksta", "beawesomeinstead", "oklasoft", "hgavin" ]
   s.email        = "graf.otodrakula@gmail.com"
   s.homepage     = "http://github.com/bai/verhoeff"
-  s.summary      = "Pure-Ruby implementation of the Verhoeff checksum algorithm"
+  s.summary      = "Implementation of the Verhoeff checksum algorithm"
   s.description  = "Pure-Ruby implementation of the Verhoeff checksum algorithm"
+  s.licenses     = ["MIT"]
 
   s.files        = `git ls-files app lib`.split("\n")
   s.platform     = Gem::Platform::RUBY
