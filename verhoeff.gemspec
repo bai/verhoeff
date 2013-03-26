@@ -16,6 +16,9 @@ Gem::Specification.new do |s|
   s.platform     = Gem::Platform::RUBY
   s.require_path = 'lib'
 
+  s.signing_key   = File.expand_path("~/.gem/private_key.pem") if $0 =~ /gem\z/
+  s.cert_chain    = ["certs/bai.pem"]
+
   s.add_development_dependency 'rake'
   s.add_development_dependency 'shoulda'
 end
