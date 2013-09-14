@@ -5,6 +5,7 @@ require 'verhoeff/version'
 
 Gem::Specification.new do |s|
   s.name         = "verhoeff"
+  s.license      = "MIT"
   s.version      = Verhoeff::VERSION
   s.authors      = [ "jicksta", "beawesomeinstead", "oklasoft", "hgavin" ]
   s.email        = "graf.otodrakula@gmail.com"
